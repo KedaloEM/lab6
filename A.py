@@ -7,7 +7,7 @@ for i in range(1,len(B),1):
     A=A+list(map(int, B[i].split()))
 b=0
 for elem in A:
-    if A.count(elem)==N:
+    if A.count(elem)==2:
         b=elem
 print(b,file=output)
 intinput.close()
